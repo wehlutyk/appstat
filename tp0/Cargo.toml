@@ -1,0 +1,9 @@
+[package]
+name = "tp0"
+version = "0.1.0"
+authors = ["Sébastien Lerique <sl@mehho.net>"]
+
+[dependencies]
+ndarray = { version = "0.7.1", features = ["blas"] }
+openblas-src = { version = "0.5.2" }
+#ndarray-linalg = "0.1.5"
